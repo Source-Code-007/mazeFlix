@@ -7,6 +7,11 @@ body{
     background-color: #000;
 }
 
+/* swipper */
+.swiper-pagination-bullet{
+    background-color: white !important;
+}
+
 .my-btn{
     @apply bg-red-500 rounded text-white px-5 py-3 hover:bg-red-700
 }
