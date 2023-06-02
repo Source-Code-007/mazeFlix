@@ -7,6 +7,7 @@ import {
 import './index.css'
 import LayoutOne from './Layout/LayoutOne';
 import Homepage from './Components/Homepage/Homepage';
+import ShowSummary from './Components/ShowSummary/ShowSummary';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Homepage></Homepage>
+      },
+      {
+        path: '/show/:id',
+        element: <ShowSummary></ShowSummary>
       }
     ]
   }
