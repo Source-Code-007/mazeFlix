@@ -21,7 +21,7 @@ const FeaturedShows = () => {
 
 
     return (
-        <div className="py-20">
+        <div className="py-20 px-6 md:px-10 xl:px-20">
             <div className="w-5/6 md:3/6 xl:w-2/6 mx-auto py-14 text-center">
                 <h2 className="font-bold text-xl text-red-500">Featured</h2>
                 <p className="font-semibold text-6xl text-slate-300"><span className="text-white font-bold text-7xl">Now</span> Showing</p>
